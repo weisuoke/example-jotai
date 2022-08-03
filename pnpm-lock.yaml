@@ -28,6 +28,7 @@ specifiers:
   identity-obj-proxy: ^3.0.0
   jest: ^28.1.0
   jest-environment-jsdom: ^28.1.0
+  jotai: ^1.7.7
   less: ^4.1.2
   less-loader: ^10.2.0
   lint-staged: ^12.4.1
@@ -50,6 +51,7 @@ specifiers:
   webpack-merge: ^5.8.0
 
 dependencies:
+  jotai: registry.npmmirror.com/jotai/1.7.7_react@18.2.0
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
 
@@ -6046,6 +6048,46 @@ packages:
       - supports-color
       - ts-node
     dev: true
+
+  registry.npmmirror.com/jotai/1.7.7_react@18.2.0:
+    resolution: {integrity: sha512-UK1fzkR2vq62rUL7iHlMkjkKj49AEU9iOm2xwfgPAeMJ8GIzKrEiKQC81w+O4dlNCjmCIi9UVkV75dADqccVCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jotai/-/jotai-1.7.7.tgz}
+    id: registry.npmmirror.com/jotai/1.7.7
+    name: jotai
+    version: 1.7.7
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@babel/core': '*'
+      '@babel/template': '*'
+      '@tanstack/query-core': '*'
+      '@urql/core': '*'
+      immer: '*'
+      optics-ts: '*'
+      react: '>=16.8'
+      valtio: '*'
+      wonka: '*'
+      xstate: '*'
+    peerDependenciesMeta:
+      '@babel/core':
+        optional: true
+      '@babel/template':
+        optional: true
+      '@tanstack/query-core':
+        optional: true
+      '@urql/core':
+        optional: true
+      immer:
+        optional: true
+      optics-ts:
+        optional: true
+      valtio:
+        optional: true
+      wonka:
+        optional: true
+      xstate:
+        optional: true
+    dependencies:
+      react: registry.npmmirror.com/react/18.2.0
+    dev: false
 
   registry.npmmirror.com/js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
